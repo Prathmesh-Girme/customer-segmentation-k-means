@@ -272,6 +272,5 @@ print("Cluster number:", cluster)  # look it up in outputs/model_metadata.json -
 
 ## Author
 
-**Prathmesh Girme**
+**Prathmesh Girme**  
 GitHub: [@Prathmesh-Girme](https://github.com/Prathmesh-Girme)
-**Date:** 02/11/2026
