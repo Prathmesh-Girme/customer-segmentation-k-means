@@ -1,0 +1,6 @@
+Segment,Cluster,Customers,Share,Avg_Age,Avg_AnnualIncome,Avg_SpendingScore,Income_Level,Spending_Level,Persona,Action
+S1,2,12,0.12,48.75,24.917,9.583,Low,Very low,Disengaged low spenders,Run low-cost reactivation (email or SMS offers) and avoid expensive campaigns.
+S2,0,24,0.24,26.708,28.542,78.917,Low,High,Enthusiastic spenders,"Reward loyalty and push new arrivals and trend offers; this group already spends heavily despite lower income, so protect the relationship."
+S3,4,16,0.16,40.062,33.688,37.562,Low,Low,Value seekers,"Use discounts, coupons and bundle deals, keeping campaign cost low."
+S4,1,36,0.36,45.889,75.778,54.056,High,Mid,Core mainstream,"Retain with a tiered loyalty program, cross-selling and seasonal campaigns."
+S5,3,12,0.12,38.25,122.667,50.583,Very high,Mid,Affluent under-spenders,"Highest upside: personalized premium offers, curated recommendations and invitations to events to raise spending."

@@ -1,0 +1,158 @@
+{
+  "chosen_k": 5,
+  "quality": {
+    "silhouette": 0.534105523377333,
+    "davies_bouldin": 0.5871940185951287,
+    "calinski_harabasz": 163.25279699391038,
+    "stability_ari_mean": 0.973527357800007,
+    "stability_ari_std": 0.06570923014175838,
+    "smallest_segment_share": 0.12,
+    "age_check": {
+      "silhouette_with_age": 0.4041027501111584,
+      "ari_vs_two_feature_segments": 0.5037523251587522,
+      "age_spending_correlation": -0.42656965944752645
+    }
+  },
+  "k_selection": [
+    {
+      "k": 2,
+      "Inertia": 119.85934124713171,
+      "Silhouette": 0.4320005298195861,
+      "Davies_Bouldin": 0.7869571670530845,
+      "Calinski_Harabasz": 65.52501019997919,
+      "Stability_ARI_Mean": 0.8517903952251651,
+      "Stability_ARI_Std": 0.361567747385449,
+      "Smallest_Segment_Share": 0.24
+    },
+    {
+      "k": 3,
+      "Inertia": 53.07169778700071,
+      "Silhouette": 0.5564813233119171,
+      "Davies_Bouldin": 0.6177164829470244,
+      "Calinski_Harabasz": 134.27161659553883,
+      "Stability_ARI_Mean": 0.9723671648098068,
+      "Stability_ARI_Std": 0.032189810808707246,
+      "Smallest_Segment_Share": 0.25
+    },
+    {
+      "k": 4,
+      "Inertia": 33.81223724233251,
+      "Silhouette": 0.5284571053529945,
+      "Davies_Bouldin": 0.6386165701858042,
+      "Calinski_Harabasz": 157.28058365766105,
+      "Stability_ARI_Mean": 0.9514412711341343,
+      "Stability_ARI_Std": 0.03863012757328304,
+      "Smallest_Segment_Share": 0.15
+    },
+    {
+      "k": 5,
+      "Inertia": 25.400689595860328,
+      "Silhouette": 0.534105523377333,
+      "Davies_Bouldin": 0.5871940185951287,
+      "Calinski_Harabasz": 163.25279699391038,
+      "Stability_ARI_Mean": 0.973527357800007,
+      "Stability_ARI_Std": 0.06570923014175838,
+      "Smallest_Segment_Share": 0.12
+    },
+    {
+      "k": 6,
+      "Inertia": 20.78658840798838,
+      "Silhouette": 0.54515983058123,
+      "Davies_Bouldin": 0.5509456915237927,
+      "Calinski_Harabasz": 162.0858638176054,
+      "Stability_ARI_Mean": 0.8987164489426711,
+      "Stability_ARI_Std": 0.10549384421829958,
+      "Smallest_Segment_Share": 0.02
+    },
+    {
+      "k": 7,
+      "Inertia": 17.021242644771664,
+      "Silhouette": 0.5288212302426678,
+      "Davies_Bouldin": 0.5761265619011847,
+      "Calinski_Harabasz": 166.625363270831,
+      "Stability_ARI_Mean": 0.7835239025347933,
+      "Stability_ARI_Std": 0.13594164079705048,
+      "Smallest_Segment_Share": 0.02
+    },
+    {
+      "k": 8,
+      "Inertia": 13.84786010613911,
+      "Silhouette": 0.4522465336269039,
+      "Davies_Bouldin": 0.664704468557622,
+      "Calinski_Harabasz": 176.6750214625251,
+      "Stability_ARI_Mean": 0.800659666864086,
+      "Stability_ARI_Std": 0.09285034739078184,
+      "Smallest_Segment_Share": 0.02
+    }
+  ],
+  "algorithm_comparison": [
+    {
+      "Algorithm": "K-Means",
+      "Silhouette": 0.534105523377333,
+      "Davies_Bouldin": 0.5871940185951287,
+      "Calinski_Harabasz": 163.25279699391038,
+      "ARI_vs_KMeans": 1.0
+    },
+    {
+      "Algorithm": "Hierarchical (Ward)",
+      "Silhouette": 0.4918432986409572,
+      "Davies_Bouldin": 0.6759415567088555,
+      "Calinski_Harabasz": 141.77280760351977,
+      "ARI_vs_KMeans": 0.7856298763674561
+    },
+    {
+      "Algorithm": "Gaussian Mixture",
+      "Silhouette": 0.5552123088963229,
+      "Davies_Bouldin": 0.537470390526992,
+      "Calinski_Harabasz": 137.74460644702947,
+      "ARI_vs_KMeans": 0.7659664798000753
+    }
+  ],
+  "segments": {
+    "2": {
+      "segment": "S1",
+      "persona": "Disengaged low spenders",
+      "action": "Run low-cost reactivation (email or SMS offers) and avoid expensive campaigns.",
+      "customers": 12,
+      "avg_annual_income": 24.9,
+      "avg_spending_score": 9.6,
+      "avg_age": 48.8
+    },
+    "0": {
+      "segment": "S2",
+      "persona": "Enthusiastic spenders",
+      "action": "Reward loyalty and push new arrivals and trend offers; this group already spends heavily despite lower income, so protect the relationship.",
+      "customers": 24,
+      "avg_annual_income": 28.5,
+      "avg_spending_score": 78.9,
+      "avg_age": 26.7
+    },
+    "4": {
+      "segment": "S3",
+      "persona": "Value seekers",
+      "action": "Use discounts, coupons and bundle deals, keeping campaign cost low.",
+      "customers": 16,
+      "avg_annual_income": 33.7,
+      "avg_spending_score": 37.6,
+      "avg_age": 40.1
+    },
+    "1": {
+      "segment": "S4",
+      "persona": "Core mainstream",
+      "action": "Retain with a tiered loyalty program, cross-selling and seasonal campaigns.",
+      "customers": 36,
+      "avg_annual_income": 75.8,
+      "avg_spending_score": 54.1,
+      "avg_age": 45.9
+    },
+    "3": {
+      "segment": "S5",
+      "persona": "Affluent under-spenders",
+      "action": "Highest upside: personalized premium offers, curated recommendations and invitations to events to raise spending.",
+      "customers": 12,
+      "avg_annual_income": 122.7,
+      "avg_spending_score": 50.6,
+      "avg_age": 38.2
+    }
+  }
+}

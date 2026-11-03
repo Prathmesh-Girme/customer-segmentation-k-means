@@ -1,0 +1,4 @@
+Algorithm,Silhouette,Davies_Bouldin,Calinski_Harabasz,ARI_vs_KMeans
+K-Means,0.5341,0.5872,163.2528,1.0
+Hierarchical (Ward),0.4918,0.6759,141.7728,0.7856
+Gaussian Mixture,0.5552,0.5375,137.7446,0.766

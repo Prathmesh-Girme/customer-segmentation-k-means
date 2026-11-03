@@ -1,0 +1,101 @@
+CustomerID,Age,AnnualIncome,SpendingScore,Segment,Persona
+1,19,15,39,S3,Value seekers
+2,21,15,81,S2,Enthusiastic spenders
+3,20,16,6,S1,Disengaged low spenders
+4,23,16,77,S2,Enthusiastic spenders
+5,31,17,40,S3,Value seekers
+6,22,17,76,S2,Enthusiastic spenders
+7,35,18,6,S1,Disengaged low spenders
+8,23,18,94,S2,Enthusiastic spenders
+9,64,19,3,S1,Disengaged low spenders
+10,30,19,72,S2,Enthusiastic spenders
+11,67,20,14,S1,Disengaged low spenders
+12,35,20,99,S2,Enthusiastic spenders
+13,58,21,15,S1,Disengaged low spenders
+14,24,21,73,S2,Enthusiastic spenders
+15,37,22,13,S1,Disengaged low spenders
+16,22,22,79,S2,Enthusiastic spenders
+17,35,23,35,S3,Value seekers
+18,20,23,66,S2,Enthusiastic spenders
+19,52,24,29,S3,Value seekers
+20,35,24,98,S2,Enthusiastic spenders
+21,35,25,35,S3,Value seekers
+22,25,25,73,S2,Enthusiastic spenders
+23,46,26,5,S1,Disengaged low spenders
+24,31,26,73,S2,Enthusiastic spenders
+25,54,27,14,S1,Disengaged low spenders
+26,29,27,82,S2,Enthusiastic spenders
+27,45,28,32,S3,Value seekers
+28,35,28,61,S2,Enthusiastic spenders
+29,40,29,31,S3,Value seekers
+30,23,29,87,S2,Enthusiastic spenders
+31,60,30,4,S1,Disengaged low spenders
+32,21,30,73,S2,Enthusiastic spenders
+33,53,33,4,S1,Disengaged low spenders
+34,18,33,92,S2,Enthusiastic spenders
+35,49,33,14,S1,Disengaged low spenders
+36,21,33,81,S2,Enthusiastic spenders
+37,42,34,17,S1,Disengaged low spenders
+38,30,34,73,S2,Enthusiastic spenders
+39,36,37,26,S3,Value seekers
+40,20,37,75,S2,Enthusiastic spenders
+41,65,38,35,S3,Value seekers
+42,24,38,92,S2,Enthusiastic spenders
+43,48,39,36,S3,Value seekers
+44,31,39,61,S2,Enthusiastic spenders
+45,49,40,28,S3,Value seekers
+46,24,40,65,S2,Enthusiastic spenders
+47,50,42,55,S3,Value seekers
+48,27,42,42,S3,Value seekers
+49,29,43,50,S3,Value seekers
+50,31,43,46,S3,Value seekers
+51,49,54,42,S3,Value seekers
+52,33,54,52,S4,Core mainstream
+53,31,60,54,S4,Core mainstream
+54,59,60,47,S4,Core mainstream
+55,50,62,52,S4,Core mainstream
+56,47,62,60,S4,Core mainstream
+57,51,63,54,S4,Core mainstream
+58,69,63,46,S4,Core mainstream
+59,27,67,56,S4,Core mainstream
+60,53,67,40,S4,Core mainstream
+61,70,69,46,S4,Core mainstream
+62,19,69,55,S4,Core mainstream
+63,67,71,56,S4,Core mainstream
+64,54,71,91,S2,Enthusiastic spenders
+65,63,72,48,S4,Core mainstream
+66,18,72,59,S4,Core mainstream
+67,43,73,53,S4,Core mainstream
+68,68,73,48,S4,Core mainstream
+69,19,74,55,S4,Core mainstream
+70,32,75,52,S4,Core mainstream
+71,70,78,42,S4,Core mainstream
+72,47,78,61,S4,Core mainstream
+73,60,78,56,S4,Core mainstream
+74,60,78,60,S4,Core mainstream
+75,59,79,55,S4,Core mainstream
+76,26,79,59,S4,Core mainstream
+77,45,80,52,S4,Core mainstream
+78,40,80,55,S4,Core mainstream
+79,23,81,41,S4,Core mainstream
+80,49,81,61,S4,Core mainstream
+81,57,87,50,S4,Core mainstream
+82,38,87,59,S4,Core mainstream
+83,67,88,55,S4,Core mainstream
+84,46,88,61,S4,Core mainstream
+85,21,93,90,S4,Core mainstream
+86,48,93,43,S4,Core mainstream
+87,55,97,58,S4,Core mainstream
+88,22,97,55,S4,Core mainstream
+89,34,103,23,S5,Affluent under-spenders
+90,50,103,60,S5,Affluent under-spenders
+91,68,113,43,S5,Affluent under-spenders
+92,18,113,59,S5,Affluent under-spenders
+93,48,120,47,S5,Affluent under-spenders
+94,40,120,60,S5,Affluent under-spenders
+95,32,126,54,S5,Affluent under-spenders
+96,24,126,55,S5,Affluent under-spenders
+97,47,137,44,S5,Affluent under-spenders
+98,27,137,56,S5,Affluent under-spenders
+99,48,137,51,S5,Affluent under-spenders
+100,23,137,55,S5,Affluent under-spenders

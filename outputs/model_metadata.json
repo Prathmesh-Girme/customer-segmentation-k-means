@@ -1,0 +1,87 @@
+{
+  "model_name": "Customer Segmentation K-Means Pipeline",
+  "model_class": "Pipeline(StandardScaler, KMeans)",
+  "n_clusters": 5,
+  "n_init": 20,
+  "random_state": 42,
+  "trained_at": "2026-11-03T09:12:11",
+  "python_version": "3.11.9",
+  "scikit_learn_version": "1.9.1",
+  "pandas_version": "3.1.0",
+  "training_customers": 100,
+  "features": [
+    "AnnualIncome",
+    "SpendingScore"
+  ],
+  "training_ranges": {
+    "AnnualIncome": [
+      15.0,
+      137.0
+    ],
+    "SpendingScore": [
+      3.0,
+      99.0
+    ]
+  },
+  "unusual_distance_limit": 0.856,
+  "segments": {
+    "2": {
+      "segment": "S1",
+      "persona": "Disengaged low spenders",
+      "action": "Run low-cost reactivation (email or SMS offers) and avoid expensive campaigns.",
+      "customers": 12,
+      "avg_annual_income": 24.9,
+      "avg_spending_score": 9.6,
+      "avg_age": 48.8
+    },
+    "0": {
+      "segment": "S2",
+      "persona": "Enthusiastic spenders",
+      "action": "Reward loyalty and push new arrivals and trend offers; this group already spends heavily despite lower income, so protect the relationship.",
+      "customers": 24,
+      "avg_annual_income": 28.5,
+      "avg_spending_score": 78.9,
+      "avg_age": 26.7
+    },
+    "4": {
+      "segment": "S3",
+      "persona": "Value seekers",
+      "action": "Use discounts, coupons and bundle deals, keeping campaign cost low.",
+      "customers": 16,
+      "avg_annual_income": 33.7,
+      "avg_spending_score": 37.6,
+      "avg_age": 40.1
+    },
+    "1": {
+      "segment": "S4",
+      "persona": "Core mainstream",
+      "action": "Retain with a tiered loyalty program, cross-selling and seasonal campaigns.",
+      "customers": 36,
+      "avg_annual_income": 75.8,
+      "avg_spending_score": 54.1,
+      "avg_age": 45.9
+    },
+    "3": {
+      "segment": "S5",
+      "persona": "Affluent under-spenders",
+      "action": "Highest upside: personalized premium offers, curated recommendations and invitations to events to raise spending.",
+      "customers": 12,
+      "avg_annual_income": 122.7,
+      "avg_spending_score": 50.6,
+      "avg_age": 38.2
+    }
+  },
+  "quality": {
+    "silhouette": 0.534105523377333,
+    "davies_bouldin": 0.5871940185951287,
+    "calinski_harabasz": 163.25279699391038,
+    "stability_ari_mean": 0.973527357800007,
+    "stability_ari_std": 0.06570923014175838,
+    "smallest_segment_share": 0.12,
+    "age_check": {
+      "silhouette_with_age": 0.4041027501111584,
+      "ari_vs_two_feature_segments": 0.5037523251587522,
+      "age_spending_correlation": -0.42656965944752645
+    }
+  }
+}
